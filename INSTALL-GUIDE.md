@@ -12,6 +12,7 @@ npm, nodejs
 
 #### Todo
 a. Add angular to client folder
+2. Add db (mongo maybe?)
 #### Reference
 1. [https://www.youtube.com/watch?v=PFP0oXNNveg](https://www.youtube.com/watch?v=PFP0oXNNveg)
 2. [https://github.com/bradtraversy/mean_mytasklist](https://github.com/bradtraversy/mean_mytasklist)

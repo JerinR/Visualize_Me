@@ -25,5 +25,5 @@ app.use('/', index);
 app.use('/api', algo);
 
 app.listen(port, function(){
-    console.log('Server started on port '+port);
+    console.log('Server started on port ' + port);
 });
