@@ -1,7 +1,7 @@
 
-# Install guide
+# Setup guide
 ### prerequisites
-Nodejs
+npm, nodejs
 
 1. Pull from current branch
 2. Run `npm install` in project root Folder(using shell)
@@ -12,3 +12,6 @@ Nodejs
 
 #### Todo
 a. Add angular to client folder
+#### Reference
+1. [https://www.youtube.com/watch?v=PFP0oXNNveg](https://www.youtube.com/watch?v=PFP0oXNNveg)
+2. [https://github.com/bradtraversy/mean_mytasklist](https://github.com/bradtraversy/mean_mytasklist)
