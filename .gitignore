@@ -1,3 +1,9 @@
 
 # ignore node module folder
 **/node_modules
+
+# ignore compiled js files
+**/app/*.js
+**/app/*.js.map
+**/src/main.js
+**/src/main.js.map
