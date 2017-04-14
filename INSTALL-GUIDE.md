@@ -10,10 +10,17 @@ npm, nodejs
     [http://localhost:3443/api/algorithm/my](http://localhost:3443/api/algorithm/my)
     (Modify url after *algorithm/*)
 
+- Updates to use Angular from client folder
+  a. run `npm install` in client folder
+  b. run `npm start` in client folder (keep running in second terminal)
+  c. Finally, run `node server.js` in project root to start node server
+
+
 #### Todo
 a. Add angular to client folder
   - Done.
-  - Do `npm install` in client folder before running `node server.js` from root
+  - Do `npm install` and `npm start` in client folder before running `node server.js` from root
+
 b. Add db (mongo maybe?)
 #### Reference
 1. [https://www.youtube.com/watch?v=PFP0oXNNveg](https://www.youtube.com/watch?v=PFP0oXNNveg)
