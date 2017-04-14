@@ -16,6 +16,7 @@ app.engine('html', require('ejs').renderFile);
 
 // Set Static Folder
 app.use(express.static(path.join(__dirname, 'client')));
+app.use(express.static(path.join(__dirname, 'client/src'))); // fix for latest angular
 
 // Body Parser MW(middleware)
 app.use(bodyParser.json());
