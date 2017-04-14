@@ -14,6 +14,7 @@ npm, nodejs
 a. Add angular to client folder
   - Done.
   - Do `npm install` in client folder before running `node server.js` from root
+  
 b. Add db (mongo maybe?)
 #### Reference
 1. [https://www.youtube.com/watch?v=PFP0oXNNveg](https://www.youtube.com/watch?v=PFP0oXNNveg)
