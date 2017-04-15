@@ -2,6 +2,18 @@ var express = require('express');
 var path = require('path');
 var bodyParser = require('body-parser');
 
+// mongodb setup local
+// var mongoClient = require('mongodb').MongoClient;
+// var dbUrl = 'mongodb://localhost:27017'
+//
+// mongoClient.connect(dbUrl, function(err, db) {
+//   // assert.equal(null, err);
+//   console.log("Connected successfully to server");
+//
+//   db.close();
+// });
+
+
 var index = require('./routes/index');
 var algo = require('./routes/algo');
 
