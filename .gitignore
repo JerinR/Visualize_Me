@@ -3,7 +3,9 @@
 **/node_modules
 
 # ignore compiled js files
-**/app/*.js
-**/app/*.js.map
-**/src/main.js
-**/src/main.js.map
+**/*.component.js
+**/*.component.js.map
+**/app.module.js
+**/app.module.js.map
+**/main.js
+**/main.js.map
