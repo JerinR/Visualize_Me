@@ -5,7 +5,9 @@
 # ignore compiled js files
 **/*.component.js
 **/*.component.js.map
-**/app.module.js
-**/app.module.js.map
+**/*.interface.js
+**/*.interface.js.map
+**/*.module.js
+**/*.module.js.map
 **/main.js
 **/main.js.map
