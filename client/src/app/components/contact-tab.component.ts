@@ -1,8 +1,9 @@
 import { Component } from '@angular/core';
 
 @Component({
+  moduleId: module.id,
   selector: 'contact-tab',
-  template: `<h1>Hello {{name}}</h1>`,
+  templateUrl: 'contact-tab.component.html',
 })
 
 export class ContactTabComponent  { name = 'from contact'; }
