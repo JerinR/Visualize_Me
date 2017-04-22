@@ -22,7 +22,7 @@ export class HomeTabComponent  {
       for (var i = 0; i < data.length; ++i) {
         var cardData = {
           // TODO insert docs in mongo with imageSrc
-          imageSrc: 'https://r.lvmh-static.com/uploads/2014/09/dfs-logo-400x150px.png',
+          imageSrc: '../images/dfs-sample-for-mock.png',
           title: data[i].name,
           tags: data[i].tags,
           description: data[i].description
