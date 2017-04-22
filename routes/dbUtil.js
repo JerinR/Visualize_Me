@@ -1,10 +1,14 @@
 var express = require('express');
 var router = express.Router();
+<<<<<<< HEAD
 var assert = require('assert');
+=======
+>>>>>>> 440759c0abc1e66117e10061a1e2ab7741f1c6ee
 
 var mongoClient = require('mongodb').MongoClient;
 var dbUrl = require('../config/app.config').mongodb.url;
 
+<<<<<<< HEAD
 var COLLECTION_NAME = 'collection_basic';
 
 var util = {
@@ -46,4 +50,23 @@ router.post('insert', function (req, res, next) {
   res.send('TODO insert function in api');
 });
 
+=======
+var util = {
+  insertOne: function (db, collection, callback) {
+    db.collection(collection).insertOne({
+
+    }, function (err, result) {
+      assert(err, null);
+      console.log('Inserted a document into ' + collection + ' collection');
+      callback();
+    });
+  },
+
+  getAll: function (db, collection, callback) {
+    var cursor = db.collection(collection).find();
+
+  }
+};
+
+>>>>>>> 440759c0abc1e66117e10061a1e2ab7741f1c6ee
 module.exports = router;

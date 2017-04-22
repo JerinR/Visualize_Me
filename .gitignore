@@ -1,0 +1,13 @@
+
+# ignore node module folder
+**/node_modules
+
+# ignore compiled js files
+**/*.component.js
+**/*.component.js.map
+**/*.interface.js
+**/*.interface.js.map
+**/*.module.js
+**/*.module.js.map
+**/main.js
+**/main.js.map
