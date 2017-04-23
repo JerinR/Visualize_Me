@@ -3,8 +3,8 @@
 ## prerequisite
 angular-cli (super simple to install)
 - should be able to run `ng build`
-node
-npm
+- node
+- npm
 
 ### Install
 - `npm install` in project root to install dependencies in package.json
