@@ -13,7 +13,7 @@ export class CardComponent {
   @Input()
   title: string;
   @Input()
-  subtitle: string;
+  tags: string[];
   @Input()
   description: string;
 }

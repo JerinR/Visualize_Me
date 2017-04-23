@@ -3,6 +3,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { RouterModule, Routes } from '@angular/router';
 import { MdCardModule } from '@angular/material';
 import {MdGridListModule} from '@angular/material';
+import {HttpModule} from '@angular/http'
 
 import { AppComponent }  from './app.component';
 import { HomeTabComponent } from './components/home-tab.component'
@@ -34,7 +35,8 @@ const appRoutes : Routes = [
   imports:      [ BrowserModule,
     RouterModule.forRoot(appRoutes),
     MdCardModule.forRoot(),
-    MdGridListModule
+    MdGridListModule,
+    HttpModule
   ],
   declarations: [ AppComponent,
     HomeTabComponent,

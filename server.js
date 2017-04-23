@@ -2,11 +2,13 @@ var express = require('express');
 var path = require('path');
 var bodyParser = require('body-parser');
 
+var assert = require('assert');
+
 // mongodb setup local
 var mongoClient = require('mongodb').MongoClient;
 var dbUrl = require('./config/app.config').mongodb.url;
 mongoClient.connect(dbUrl, function(err, db) {
-  // assert.equal(null, err);
+  assert.equal(null, err);
   console.log("Connected successfully to server");
   db.close();
 });
@@ -28,6 +30,7 @@ app.engine('html', require('ejs').renderFile);
 // Set Static Folder
 app.use(express.static(path.join(__dirname, 'client')));
 app.use(express.static(path.join(__dirname, 'client/src'))); // fix for latest angular
+app.use(express.static(path.join(__dirname, 'public'))); // serve images currently
 
 // Body Parser MW(middleware)
 app.use(bodyParser.json());
