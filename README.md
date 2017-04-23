@@ -14,3 +14,7 @@ angular-cli (super simple to install)
 2. run `node server.js` in seperate console
 
 3. point browser to [http://localhost:3443](http://localhost:3443)
+
+
+### Deployed application
+- [https://visualize-me.herokuapp.com](https://visualize-me.herokuapp.com)
