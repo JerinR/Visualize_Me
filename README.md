@@ -1,2 +1,13 @@
-# Visualize_Me
-visualizing the flow of the algorithms
+# Migrate to angular-cli
+
+## prerequisite
+angular-cli (super simple to install)
+- should be able to run `ng build`
+node
+npm
+
+### steps to run
+1. run `ng build --watch` (--watch is for development, will notice file changes and builds automatically)
+2. run `node server.js` in seperate console
+
+3. point browser to [localhost:3443](localhost:3443)
