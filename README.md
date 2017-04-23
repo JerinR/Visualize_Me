@@ -13,4 +13,4 @@ angular-cli (super simple to install)
 1. run `ng build --watch` (--watch is for development, will notice file changes and builds automatically)
 2. run `node server.js` in seperate console
 
-3. point browser to [localhost:3443](localhost:3443)
+3. point browser to [http://localhost:3443](http://localhost:3443)
