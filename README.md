@@ -6,6 +6,9 @@ angular-cli (super simple to install)
 node
 npm
 
+### Install
+- `npm install` in project root to install dependencies in package.json
+
 ### steps to run
 1. run `ng build --watch` (--watch is for development, will notice file changes and builds automatically)
 2. run `node server.js` in seperate console
